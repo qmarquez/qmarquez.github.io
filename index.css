@@ -1,0 +1,16 @@
+.vh100 {
+  height: 100vh;
+}
+
+.name-header {
+  display: inline-block;
+  text-align: center;
+}
+
+.index-main-container{
+  margin-top: 40px;
+}
+
+.index-main-container img {
+  height: 32px;
+}

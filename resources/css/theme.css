@@ -1,29 +1,4 @@
-@media print {
-  .print-padding-top-1 {
-    padding-top: 20px;
-  }
-
-  .print-hide {
-    display: none;
-  }
-
-  .pagebreak {
-    page-break-after: always;
-  }
-
-  .print-show {
-    display: initial !important;
-  }
-}
-
-@media not print {
-  .not-print-hide {
-    display: none;
-  }
-}
-
 .body {
-  /* background-image: url(../images/granito-blanco-2.jpg); */
   background-image: url(../images/granito-negro-2.jpg);
   background-color: #1f1f1f;
 }
@@ -147,11 +122,15 @@ hr {
 }
 
 .footer {
-  height: 50px;
+  min-height: 50px;
   width: 100%;
   padding: 15px 20px;
   font-family: "Josefin Sans";
   text-align: right;
+}
+
+.footer p {
+  margin: 0;
 }
 
 .section-time {
@@ -180,7 +159,8 @@ hr {
   border: solid 2px #fc0;
   border-radius: 8px;
   padding: 3px 7px;
-  max-width: 340px;
+  /* max-width: 340px; */
+  width: 100%;
   margin: 0 3px 7px;
   display: inline-block;
   vertical-align: top;
@@ -203,4 +183,38 @@ hr {
 .stars-rate-container {
   margin: 3px 0 9px;
   padding-left: 10px;
+}
+
+.go-back {
+  height: 35px;
+  float: left;
+  padding-top: 11px;
+}
+
+@media print {
+  .print-padding-top-1 {
+    padding-top: 20px;
+  }
+
+  .print-hide {
+    display: none;
+  }
+
+  .pagebreak {
+    page-break-after: always;
+  }
+
+  .print-show {
+    display: initial !important;
+  }
+
+  .body {
+    background-image: none;
+  }
+}
+
+@media not print {
+  .not-print-hide {
+    display: none;
+  }
 }
