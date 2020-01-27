@@ -1,5 +1,5 @@
-# Functional resume project
-Static responsive non-interactive web page.
+# [PERSONAL PROJECT] [01] Functional resume
+Static responsive resume web page.
 
 #HTML5\
 #CSS3\
