@@ -3,11 +3,11 @@
 }
 
 .name-header {
-  display: inline-block;
+  display   : inline-block;
   text-align: center;
 }
 
-.index-main-container{
+.index-main-container {
   margin-top: 40px;
 }
 

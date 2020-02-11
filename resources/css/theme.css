@@ -1,11 +1,20 @@
 .body {
-  background-image: url(../images/granito-negro-2.jpg);
-  background-color: #1f1f1f;
+  /* background-image: url(../images/granito-negro-2.jpg); */
+  /* background-color: #1f1f1f; */
 }
 
 body,
 a {
-  color: #dddddd;
+  color: #3c3c3c;
+}
+.profile-img{
+  overflow: hidden;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 30%;
+  height: 230px;
+}
+.profile-img-container{
+  text-align: center;
 }
 .contact img {
   height: 35px;
@@ -19,7 +28,7 @@ a {
 
 .languages img {
   height: 20px;
-  color: #fc0;
+  color: #5e63ff;
 }
 
 .languages .language {
@@ -32,7 +41,7 @@ a {
 }
 
 .personal-data {
-  background-color: #66666680;
+  background-color: #99999921;
   padding-top: 6px;
   padding-bottom: 6px;
   min-width: 215px;
@@ -51,7 +60,7 @@ hr {
 .primary-data-title {
   display: inline-block;
   padding: 0 20px 0 2px;
-  color: #fc0;
+  color: #5e63ff;
 }
 
 .secondary-data-row {
@@ -66,7 +75,7 @@ hr {
 .name-header {
   text-align: right;
   width: 100%;
-  color: #fc0;
+  color: #5e63ff;
   font-family: "Josefin Sans";
 }
 
@@ -95,7 +104,7 @@ hr {
 }
 
 .section-title {
-  color: #fc0;
+  color: #5e63ff;
   font-family: "Josefin Sans";
   font-size: 25px;
   margin-top: 15px;
@@ -134,11 +143,11 @@ hr {
 }
 
 .section-time {
-  color: #fc0;
+  color: #5e63ff;
 }
 
 .section-experience-skills {
-  border-left: solid 2px #fc0;
+  border-left: solid 2px #5e63ff;
   padding-left: 7px;
   margin-left: 9px;
 }
@@ -148,7 +157,7 @@ hr {
 }
 
 .section-expirience-reference {
-  color: #ffe88a;
+  color: #aaa;
 }
 
 .section-expirience-reference-image {
@@ -156,7 +165,7 @@ hr {
 }
 
 .section-tech-skill-container {
-  border: solid 2px #fc0;
+  border: solid 2px #5e63ff;
   border-radius: 8px;
   padding: 3px 7px;
   /* max-width: 340px; */
