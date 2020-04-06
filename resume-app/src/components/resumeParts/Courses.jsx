@@ -17,7 +17,7 @@ export default ({ locale, courses }) => {
                 <span className="section-time">{time} </span>
                 {
                   href ?
-                    <a href={href}>{title}</a>
+                    <a href={href} target="_blank" rel="noopener noreferrer">{title}</a>
                     : <span>{title}</span>
                 }
                 {extra}

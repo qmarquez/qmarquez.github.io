@@ -20,7 +20,7 @@ class Resume extends React.Component {
   static mapDispatchToProps = { setLocale }
 
   componentDidMount() {
-    const { locale } = this.props.match.params;
+    const { locale } = this.props;
     if (locale) {
       this.props.setLocale(locale);
       this.setState({ locale });

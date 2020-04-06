@@ -7,7 +7,7 @@ class LanguageSlection extends React.Component {
   renderLaguageOptions() {
     return availablesLanguages.map(({ img, imgAlt, text, href }, i) => (
       <div key={i} className="col-sm-12 col-md-6 text-center index-main-container">
-        <Link to={href}>
+        <Link to={`?locale=${href}`}>
           <h1 className="name-header"><img src={img} alt={imgAlt} />
             <div>{text}</div>
           </h1>
