@@ -7,7 +7,9 @@ import usa from '../../assets/usa.svg';
 import as from '../../assets/as.svg';
 import { Translate, I18n } from 'react-redux-i18n';
 import { translation } from '../../i18n/i18n_translations.enum';
-import { contactChannels, careerGoals, whoIAmItems, basicData } from '../../data';
+import { leftBar } from '../../data';
+
+const { contactChannels, careerGoals, whoIAmItems, basicData } = leftBar;
 
 export default class extends React.Component {
   renderProfileImage() {
