@@ -3,6 +3,8 @@ import argentinaFlag from './assets/argentina.svg';
 import usaFlag from './assets/usa.svg';
 import { translation } from './i18n/i18n_translations.enum';
 
+const lastUpdate = '04/2020';
+
 const availablesLanguages = [
   {
     img: argentinaFlag,
@@ -407,14 +409,19 @@ const body = {
   degreeStudies,
   experiences,
   courses,
-  skills
+  skills,
+  lastUpdate
 };
 
-export {
-  availablesLanguages,
+const leftBar = {
   contactChannels,
   careerGoals,
   whoIAmItems,
-  basicData,
+  basicData
+}
+
+export {
+  availablesLanguages,
+  leftBar,
   body
 };

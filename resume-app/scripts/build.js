@@ -130,6 +130,24 @@ checkBrowsers(paths.appPath, isInteractive)
 
 // Create the production build and print the deployment instructions.
 function build(previousFileSizes) {
+  // Add this to control las update date
+  console.log(chalk.yellow('Checking last update date...'))
+  const dataFilePath = process.cwd() + '/src/data.js';
+  const dataFile = fs.readFileSync(dataFilePath);
+
+  const lastUpdateRx = RegExp('lastUpdate = \'..\/....\'');
+  const [match] = lastUpdateRx.exec(dataFile);
+  const [, lastUpdateDate] = match.split(' = ');
+
+  const prompt = require('prompt-sync')();
+  const resp = prompt(`The last update date is ${lastUpdateDate}, it's correct? Y/n `);
+
+  if (/n/i.exec(resp)) {
+    const realLastUpdateDate = prompt('What shold be? MM/YYYY: ');
+    const updatedDataFile = require('buffer-replace')(dataFile, `lastUpdate = ${lastUpdateDate}`, `lastUpdate = '${realLastUpdateDate}'`);
+    fs.writeFileSync(dataFilePath, updatedDataFile);
+  }
+
   // We used to support resolving modules according to `NODE_PATH`.
   // This now has been deprecated in favor of jsconfig/tsconfig.json
   // This lets you use absolute paths in imports inside large monorepos:
