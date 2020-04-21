@@ -195,6 +195,10 @@ const experiences = [
 
 const courses = [
   {
+    es: { time: '2020', title: 'Learn react in a fun way. Create sudoku with React', href: 'https://www.udemy.com/course/learn-react-in-a-fun-way-create-sudoku-with-react/', extra: '. Udemy.' },
+    en: { time: '2020', title: 'Learn react in a fun way. Create sudoku with React', href: 'https://www.udemy.com/course/learn-react-in-a-fun-way-create-sudoku-with-react/', extra: '. Udemy.' }
+  },
+  {
     es: { time: '2020', title: 'Nest.js Series', href: 'https://www.youtube.com/playlist?list=PLzHaXzj_WAyk9NF0OIa1gRYqAntHF0fMF', extra: '. Youtube.' },
     en: { time: '2020', title: 'Nest.js Series', href: 'https://www.youtube.com/playlist?list=PLzHaXzj_WAyk9NF0OIa1gRYqAntHF0fMF', extra: '. Youtube.' }
   },
