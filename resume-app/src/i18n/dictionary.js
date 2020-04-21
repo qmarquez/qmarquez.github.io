@@ -35,7 +35,7 @@ export const dictionary = {
       skillsSummary: 'Resumen de habilidades'
     },
     footer: {
-      lastUpdate: 'Actualizado por última vez  %{date}',
+      lastUpdate: 'Actualizado por última vez %{date}',
       onlineVersionLabel: 'Versión online: qmarquez.github.io'
     }
   },

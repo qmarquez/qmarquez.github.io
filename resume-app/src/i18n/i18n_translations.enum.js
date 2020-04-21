@@ -13,7 +13,7 @@ export const translation = {
     LANGUAGES_SPEAK: 'leftBar.languages.speak',
     CAREER_GOALS: 'leftBar.careerGoals',
     WHOIAM: 'leftBar.whoIAm.title',
-    WHOIAM_SUBTITLE: 'leftBar.whoIAm.subtitle',
+    WHOIAM_SUBTITLE: 'leftBar.whoIAm.subTitle',
   },
   body: {
     DEGREESTUDIES: 'body.degreeStudies',
