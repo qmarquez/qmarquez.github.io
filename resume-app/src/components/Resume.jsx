@@ -1,10 +1,8 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import { setLocale } from 'react-redux-i18n';
 
 import './Resume.scss'
 
-import decorate from './decorators/decorate';
 import connect from './decorators/connect';
 
 import Header from './resumeParts/Header';
@@ -13,25 +11,27 @@ import Footer from './resumeParts/Footer';
 import MainBody from './resumeParts/MainBody';
 
 @connect()
-@decorate(withRouter)
 class Resume extends React.Component {
 
   state = { locale: '' };
   static mapDispatchToProps = { setLocale }
 
   componentDidMount() {
-    const { locale } = this.props;
-    if (locale) {
-      this.props.setLocale(locale);
-      this.setState({ locale });
-    }
+    this.changeLocale('es');
+  }
+
+  changeLocale = (locale) => {
+    this.setState({ locale });
+    this.props.setLocale(locale);
   }
 
   render() {
     return (
       <div className="container">
         <div className="row">
-          <Header />
+          <Header
+            locale={this.state.locale}
+            onChangeLocale={this.changeLocale} />
         </div>
 
         <div className="row">

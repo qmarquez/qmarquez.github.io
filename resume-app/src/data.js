@@ -10,12 +10,12 @@ const availablesLanguages = [
     img: argentinaFlag,
     imgAlt: 'argentina flag',
     text: 'v.Español',
-    href: 'es'
+    locale: 'es'
   }, {
     img: usaFlag,
     imgAlt: 'usa flag',
     text: 'v.English',
-    href: 'en'
+    locale: 'en'
   }
 ];
 
