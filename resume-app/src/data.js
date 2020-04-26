@@ -281,7 +281,7 @@ const skills = [
   {
     es: {
       title: 'SQL',
-      time: '4 years.',
+      time: '4 años.',
       details: [
         { icon: 'code', text: 'MySQL, T-SQL.' },
         { icon: 'cogs', text: 'Stored procedures, Joins.' },
