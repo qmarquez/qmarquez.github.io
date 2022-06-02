@@ -3,7 +3,7 @@ import argentinaFlag from './assets/argentina.svg';
 import usaFlag from './assets/usa.svg';
 import { translation } from './i18n/i18n_translations.enum';
 
-const lastUpdate = '04/2020';
+const lastUpdate = '06/2022';
 
 const availablesLanguages = [
   {
@@ -40,20 +40,16 @@ const contactChannels = {
 
 const careerGoals = [
   {
-    en: 'Reach major seniority on web development, mainly using JS based techs',
-    es: 'Especializarme a senior de desarrollo full stack principalmente con tecnologías JavaScript'
+    es: 'Integrar equipos de trabajo proactivos, con conocimientos y experiencia, de los cuales pueda nutrirme y aportar mis conocimientos',
+    en: 'Be part of proactive, experienced and wise teams, where I can learn and teach',
   },
   {
-    en: 'Deepen the ability to guide new teammates in the challenges and projects that integrate',
-    es: 'Profundizar la capacidad de guiar a nuevos compañeros de equipo en los distintos desafíos y proyectos que integre'
+    es: 'Aportar a projectos que tengan impacto positivo en la sociedad, que desde la programación se solucionen problemas y necesidades',
+    en: 'Contribute to impact projects, looking to improve the society, solve problems and necessities',
   },
   {
-    en: 'Grows on experience and abilities over aux techs related to to develompent (git, containers, devops)',
-    es: 'Adquirir experiencia y habilidades profundas en tecnologías auxiliares a la programación (git, containers, devops)'
-  },
-  {
-    en: 'Keep on training over analysis, design, implementation and good practices at development',
-    es: 'Profundizar mi experiencia sobre analisis, diseño, implementaciones y buenas prácticas de desarrollo'
+    es: 'Poder administrar mis tiempos de trabajo',
+    en: 'Being able to manage my workin hours',
   },
 ];
 
@@ -61,7 +57,7 @@ const whoIAmItems = [
   { en: 'Brave', es: 'Valiente' },
   { en: 'Free', es: 'Libre' },
   { en: 'Partner', es: 'Compañero' },
-  { en: 'Fast learning', es: 'Rápido aprendizaje' }
+  { en: 'Fast learning', es: 'Rápido aprendizaje' },
 ];
 
 const basicData = [
@@ -111,10 +107,56 @@ const degreeStudies = [
 const experiences = [
   {
     es: {
-      timelapse: '04/2019-actualidad',
+      timelapse: '10/2020-actualidad',
+      title: 'Desarrollador Back End, JavaScript. Vates S.A.',
+      link: {
+        href: 'https://www.vates.com/',
+        text: 'Vates S.A.'
+      },
+      skills: [
+        'Proveedor de servicios de desarrollo para Naranja X',
+        'Mantenimiento y desarrollo de microservicios basados en AWS',
+      ]
+    },
+    en: {
+      timelapse: '10/2020-present',
+      title: 'Desarrollador Back End, JavaScript. Vates S.A.',
+      link: {
+        href: 'https://www.vates.com/',
+        text: 'Vates S.A.'
+      },
+      skills: [
+        'Development service provider for Naranja X',
+        'Microservices maintenance and develop, AWS based',
+      ]
+    }
+  },
+  {
+    es: {
+      timelapse: '10/2021-actualidad',
+      title: 'Desarrollador independiente',
+      skills: [
+        'Comunicación escrita y hablada con clientes de USA en ingles',
+        'Desarrollo de APIs con firebase functions',
+        'Almacenamiento y gestion de datos con Firestore',
+      ]
+    },
+    en: {
+      timelapse: '10/2021-present',
+      title: 'Freelance dev',
+      skills: [
+        'Written and talked communication with USA clients',
+        'APIs develop with firebase functions',
+        'Data storage with Firestore',
+      ]
+    }
+  },
+  {
+    es: {
+      timelapse: '04/2019-10/2020',
       title: 'Desarrollador MERN Full stack. Opinaia Social Research.',
       link: {
-        href: 'https://www.opinaia.com/es',
+        href: 'https://www.vates.com/',
         text: 'Opinaia'
       },
       skills: [
@@ -126,7 +168,7 @@ const experiences = [
       ]
     },
     en: {
-      timelapse: '04/2019-present',
+      timelapse: '04/2019-10/2020',
       title: 'Full stack MERN developer. Opinaia Social Research.',
       link: {
         href: 'https://www.opinaia.com/en',
@@ -141,56 +183,56 @@ const experiences = [
       ]
     }
   },
-  {
-    es: {
-      timelapse: '04/2018-actualidad',
-      title: 'Desarrollador MEAN Full stack. Autónomo.',
-      link: {
-        href: 'http://asistentemr.herokuapp.com/',
-        text: 'Asistente empresarial'
-      },
-      skills: [
-        'Análisis y desarrollo de soluciones para asistir en procesos de contacto de prospectos y venta de productos',
-        'Organización, detalle y priorización de tareas en Jira',
-        'Investigación e implementación de buenas prácticas de desarrollo',
-      ]
-    },
-    en: {
-      timelapse: '04/2018-present',
-      title: 'Full stack MEAN developer. Freelance.',
-      link: {
-        href: 'http://asistentemr.herokuapp.com/',
-        text: 'Asistente empresarial'
-      },
-      skills: [
-        'Analysis and development of solutions to assist in processes of contact prospects and product sales',
-        'Organization, detail and prioritization of Jira tasks',
-        'Good development practices research and implementation',
-      ]
-    }
-  },
-  {
-    es: {
-      timelapse: '2013-2016',
-      title: 'Programador. Droguería saporiti.',
-      skills: [
-        'Guía, acompañamiento y enseñanza a nuevos compañeros al equipo de trabajo sobre los sistemas y tecnologías existentes en la empresa',
-        'Análisis y relevación de requerimientos para nuevos sistemas dentro de la empresa',
-        'Mantenimiento, creación y ampliación del alcance de programas de escritorio internos',
-        'Mantenimiento y migración a nuevas tecnologías de sistemas viejos',
-      ]
-    },
-    en: {
-      timelapse: '2013-2016',
-      title: 'Developer. Droguería saporiti.',
-      skills: [
-        'New work team-mates guide, support and teaching over systems and technologies existing in company',
-        'Analysis the requirements for new enterprise develops',
-        'Internal desktop programs maintenance, creation and scope upgrade',
-        'Old systems maintenance and migration to new technologies',
-      ]
-    }
-  }
+  // {
+  //   es: {
+  //     timelapse: '04/2018-10/2021',
+  //     title: 'Desarrollador MEAN Full stack. Autónomo.',
+  //     link: {
+  //       href: 'http://asistentemr.herokuapp.com/',
+  //       text: 'Asistente empresarial'
+  //     },
+  //     skills: [
+  //       'Análisis y desarrollo de soluciones para asistir en procesos de contacto de prospectos y venta de productos',
+  //       'Organización, detalle y priorización de tareas en Jira',
+  //       'Investigación e implementación de buenas prácticas de desarrollo',
+  //     ]
+  //   },
+  //   en: {
+  //     timelapse: '04/2018-10/2021',
+  //     title: 'Full stack MEAN developer. Freelance.',
+  //     link: {
+  //       href: 'http://asistentemr.herokuapp.com/',
+  //       text: 'Asistente empresarial'
+  //     },
+  //     skills: [
+  //       'Analysis and development of solutions to assist in processes of contact prospects and product sales',
+  //       'Organization, detail and prioritization of Jira tasks',
+  //       'Good development practices research and implementation',
+  //     ]
+  //   }
+  // },
+  // {
+  //   es: {
+  //     timelapse: '2013-2016',
+  //     title: 'Programador. Droguería saporiti.',
+  //     skills: [
+  //       'Guía, acompañamiento y enseñanza a nuevos compañeros al equipo de trabajo sobre los sistemas y tecnologías existentes en la empresa',
+  //       'Análisis y relevación de requerimientos para nuevos sistemas dentro de la empresa',
+  //       'Mantenimiento, creación y ampliación del alcance de programas de escritorio internos',
+  //       'Mantenimiento y migración a nuevas tecnologías de sistemas viejos',
+  //     ]
+  //   },
+  //   en: {
+  //     timelapse: '2013-2016',
+  //     title: 'Developer. Droguería saporiti.',
+  //     skills: [
+  //       'New work team-mates guide, support and teaching over systems and technologies existing in company',
+  //       'Analysis the requirements for new enterprise develops',
+  //       'Internal desktop programs maintenance, creation and scope upgrade',
+  //       'Old systems maintenance and migration to new technologies',
+  //     ]
+  //   }
+  // }
 ];
 
 const courses = [
@@ -237,67 +279,7 @@ const courses = [
 ];
 
 const skills = [
-  {
-    es: {
-      title: 'Angular 4+',
-      time: '23 meses.',
-      details: [
-        { icon: 'code', text: 'SPA, service worker, PWA.' },
-        { icon: 'code', text: 'HttpClient, Lifecicle hooks, Interceptors.' },
-        { icon: 'cogs', text: 'Angular CLI, Angular material UI, TypeScript.' },
-        { icon: 'cogs', text: 'Actualizar a nuevos realeses del framework (ej. 4-&gt;6).' }
-      ]
-    },
-
-    en: {
-      title: 'Angular 4+',
-      time: '23 months.',
-      details: [
-        { icon: 'code', text: 'SPA, service worker, PWA.' },
-        { icon: 'code', text: 'HttpClient, Lifecicle hooks, Interceptors.' },
-        { icon: 'cogs', text: 'Angular CLI, Angular material UI, TypeScript.' },
-        { icon: 'cogs', text: 'Framework new realeses upgrade (ex. 4-&gt;6)' }
-      ]
-    }
-  },
-  {
-    es: {
-      title: 'MongoDB',
-      time: '23 meses.',
-      details: [
-        { icon: 'cogs', text: 'Agreggation Framework, indexes.' },
-        { icon: 'cogs', text: 'mongo shell.' }
-      ]
-    },
-    en: {
-      title: 'MongoDB',
-      time: '23 months.',
-      details: [
-        { icon: 'cogs', text: 'Agreggation Framework, indexes.' },
-        { icon: 'cogs', text: 'mongo shell.' }
-      ]
-    }
-  },
-  {
-    es: {
-      title: 'SQL',
-      time: '4 años.',
-      details: [
-        { icon: 'code', text: 'MySQL, T-SQL.' },
-        { icon: 'cogs', text: 'Stored procedures, Joins.' },
-        { icon: 'cogs', text: 'Consultas básicas.' }
-      ]
-    },
-    en: {
-      title: 'SQL',
-      time: '4 years.',
-      details: [
-        { icon: 'code', text: 'MySQL, T-SQL.' },
-        { icon: 'cogs', text: 'Stored procedures, Joins.' },
-        { icon: 'cogs', text: 'Basics CRUDs.' }
-      ]
-    }
-  },
+  // GIT
   {
     es: {
       title: 'Git',
@@ -318,44 +300,50 @@ const skills = [
       ]
     }
   },
+  // Mongo
   {
     es: {
-      title: 'React',
-      time: '9 meses.',
+      title: 'MongoDB',
+      time: '2 years.',
       details: [
-        { icon: 'code', text: 'Redux, thunk, global stage.' },
-        { icon: 'code', text: 'Decoradores.' },
-        { icon: 'cogs', text: 'Web apps, api consume.' }
+        { icon: 'cogs', text: 'Agreggation Framework, indexes.' },
+        { icon: 'cogs', text: 'mongo shell.' }
       ]
     },
     en: {
-      title: 'React',
-      time: '9 months.',
+      title: 'MongoDB',
+      time: '2 years.',
       details: [
-        { icon: 'code', text: 'Redux, thunk, global stage.' },
-        { icon: 'code', text: 'Decorators.' },
-        { icon: 'cogs', text: 'Web apps, api consume.' }
+        { icon: 'cogs', text: 'Agreggation Framework, indexes.' },
+        { icon: 'cogs', text: 'mongo shell.' }
       ]
     }
   },
+  // ANGULAR
   {
     es: {
-      title: 'Node Js',
-      time: '23 meses.',
+      title: 'Angular 4+',
+      time: '2 años.',
       details: [
-        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif.' },
-        { icon: 'cogs', text: 'Aplicaciones de backend.' }
+        { icon: 'code', text: 'SPA, service worker, PWA.' },
+        { icon: 'code', text: 'HttpClient, Lifecicle hooks, Interceptors.' },
+        { icon: 'cogs', text: 'Angular CLI, Angular material UI, TypeScript.' },
+        { icon: 'cogs', text: 'Actualizar a nuevos realeses del framework (ej. 4-&gt;6).' }
       ]
     },
+
     en: {
-      title: 'Node Js',
-      time: '23 months.',
+      title: 'Angular 4+',
+      time: '2 years.',
       details: [
-        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif.' },
-        { icon: 'cogs', text: 'Backend apps.' }
+        { icon: 'code', text: 'SPA, service worker, PWA.' },
+        { icon: 'code', text: 'HttpClient, Lifecicle hooks, Interceptors.' },
+        { icon: 'cogs', text: 'Angular CLI, Angular material UI, TypeScript.' },
+        { icon: 'cogs', text: 'Framework new realeses upgrade (ex. 4-&gt;6)' }
       ]
     }
   },
+  // Docker
   {
     es: {
       title: 'Docker & Docker compose',
@@ -378,6 +366,68 @@ const skills = [
       ]
     }
   },
+  // Nodejs
+  {
+    es: {
+      title: 'Node Js',
+      time: '4 años.',
+      details: [
+        { icon: 'cogs', text: 'Aplicaciones de backend.' },
+        { icon: 'cogs', text: 'Typescript & Javascript.' },
+        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif, moment, firebase.' },
+      ]
+    },
+    en: {
+      title: 'Node Js',
+      time: '4 years.',
+      details: [
+        { icon: 'cogs', text: 'Backend apps.' },
+        { icon: 'cogs', text: 'Typescript & Javascript.' },
+        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif, moment, firebase.' },
+      ]
+    }
+  },
+  // SQL
+  {
+    es: {
+      title: 'SQL',
+      details: [
+        { icon: 'code', text: 'MySQL, T-SQL.' },
+        { icon: 'cogs', text: 'Stored procedures, Joins.' },
+        { icon: 'cogs', text: 'Consultas básicas.' }
+      ]
+    },
+    en: {
+      title: 'SQL',
+      details: [
+        { icon: 'code', text: 'MySQL, T-SQL.' },
+        { icon: 'cogs', text: 'Stored procedures, Joins.' },
+        { icon: 'cogs', text: 'Basics CRUDs.' }
+      ]
+    }
+  },
+  // React
+  {
+    es: {
+      title: 'React',
+      time: '9 meses.',
+      details: [
+        { icon: 'code', text: 'Redux, thunk, global stage.' },
+        { icon: 'code', text: 'Decoradores.' },
+        { icon: 'cogs', text: 'Web apps, api consume.' }
+      ]
+    },
+    en: {
+      title: 'React',
+      time: '9 months.',
+      details: [
+        { icon: 'code', text: 'Redux, thunk, global stage.' },
+        { icon: 'code', text: 'Decorators.' },
+        { icon: 'cogs', text: 'Web apps, api consume.' }
+      ]
+    }
+  },
+  // General
   {
     es: {
       title: 'Herramientas generales',
