@@ -2,10 +2,10 @@ import React from 'react';
 import { Translate } from 'react-redux-i18n';
 import { translation } from '../../i18n/i18n_translations.enum';
 
-export default ({ locale, courses }) => {
+function Courses({ locale, courses }) {
   return (
     <React.Fragment>
-      <div className="section-title">
+      <div className={"section-title"}>
         <Translate value={translation.body.COURSES} />
       </div>
       {
@@ -29,3 +29,5 @@ export default ({ locale, courses }) => {
     </React.Fragment>
   );
 }
+
+export default Courses

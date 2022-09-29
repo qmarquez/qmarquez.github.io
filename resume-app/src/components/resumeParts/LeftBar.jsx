@@ -81,21 +81,27 @@ export default class extends React.Component {
         <div className="language">
           <img className="country" src={usa} alt="USA" />
           <br />
-          <Translate value={translation.leftBar.LANGUAGES_READ_WRITE} />
-          <div className="stars-rate-container">
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" prefix="far" icon="star" />
-          </div>
-          <Translate value={translation.leftBar.LANGUAGES_SPEAK} />
-          <div className="stars-rate-container">
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" icon="star" />
-            <Icon className="icon" prefix="far" icon="star" />
-            <Icon className="icon" prefix="far" icon="star" />
+          <div className="language-puntuation-container">
+            <div>
+              <Translate value={translation.leftBar.LANGUAGES_READ_WRITE} />
+              <div className="stars-rate-container">
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" prefix="far" icon="star" />
+              </div>
+            </div>
+            <div>
+              <Translate value={translation.leftBar.LANGUAGES_SPEAK} />
+              <div className="stars-rate-container">
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" icon="star" />
+                <Icon className="icon" prefix="far" icon="star" />
+                <Icon className="icon" prefix="far" icon="star" />
+              </div>
+            </div>
           </div>
         </div>
       </div>);

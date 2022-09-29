@@ -25,20 +25,38 @@ a {
 }
 
 .languages {
-
   img,
   .icon {
-    height   : 20px;
-    color    : #5e63ff;
+    height: 20px;
+    color: #5e63ff;
     font-size: 25px;
   }
 
   .language {
     line-height: 20px;
-    margin     : 5px 0;
+    margin: 5px 0;
 
     img.country {
       margin-bottom: 3px;
+    }
+
+    .language-puntuation-container {
+      display: flex;
+      
+      & div:first-child{
+        margin-right: 20px;
+      }
+
+      .stars-rate-container {
+        margin: 3px 0 9px;
+        
+        .icon {
+          height: 19px;
+          width: 19px;
+          color: #5e63ff;
+          font-size: 25px;
+        }
+      }
     }
   }
 }
@@ -166,11 +184,11 @@ hr {
   margin-top: 9px;
 }
 
-.section-expirience-reference {
+.section-experience-reference {
   color: #aaa;
 }
 
-.section-expirience-reference-image {
+.section-experience-reference-image {
   font-size  : 13px;
   margin-left: 5px;
 }
