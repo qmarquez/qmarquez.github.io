@@ -3,7 +3,7 @@ import argentinaFlag from './assets/argentina.svg';
 import usaFlag from './assets/usa.svg';
 import { translation } from './i18n/i18n_translations.enum';
 
-const lastUpdate = '06/2022';
+const lastUpdate = '10/2022';
 
 const availablesLanguages = [
   {
@@ -107,47 +107,37 @@ const degreeStudies = [
 const experiences = [
   {
     es: {
-      timelapse: '10/2020-actualidad',
-      title: 'Desarrollador Back End, JavaScript. Vates S.A.',
+      timelapse: '10/2020-10/2022',
+      title: 'Desarrollador JavaScript. Vates S.A.',
       link: {
         href: 'https://www.vates.com/',
         text: 'Vates S.A.'
       },
       skills: [
-        'Proveedor de servicios de desarrollo para Naranja X',
+        'Desarrollo BackEnd (NodeJS) para NaranjaX',
         'Mantenimiento y desarrollo de microservicios basados en AWS',
-      ]
-    },
-    en: {
-      timelapse: '10/2020-present',
-      title: 'Desarrollador Back End, JavaScript. Vates S.A.',
-      link: {
-        href: 'https://www.vates.com/',
-        text: 'Vates S.A.'
-      },
-      skills: [
-        'Development service provider for Naranja X',
-        'Microservices maintenance and develop, AWS based',
-      ]
-    }
-  },
-  {
-    es: {
-      timelapse: '10/2021-actualidad',
-      title: 'Desarrollador independiente',
-      skills: [
-        'Comunicación escrita y hablada con clientes de USA en ingles',
+        'Uso de herramientas de AWS (Dynamo, S3, Lambda)',
+        '[desde 10/2021] Desarrollo FullStack (React+NodeJS) para cliente de Estados Unidos',
+        'Comunicación escrita y hablada en ingles',
         'Desarrollo de APIs con firebase functions',
         'Almacenamiento y gestion de datos con Firestore',
       ]
     },
     en: {
-      timelapse: '10/2021-present',
-      title: 'Freelance dev',
+      timelapse: '10/2020-10/2022',
+      title: 'JavaScript Developer. Vates S.A.',
+      link: {
+        href: 'https://www.vates.com/',
+        text: 'Vates S.A.'
+      },
       skills: [
-        'Written and talked communication with USA clients',
-        'APIs develop with firebase functions',
-        'Data storage with Firestore',
+        'BackEnd (NodeJS) development for NaranjaX',
+        'Microservices maintenance and develop, AWS based',
+        'AWS tool use (Dynamo, S3, Lambda)',
+        '[since 10/2021] FullStack (React+NodeJS) development for USA client',
+        'Written and talked english communication',
+        'API developed firebase based',
+        'Firebase tool use (Firestore, Functions)',
       ]
     }
   },
