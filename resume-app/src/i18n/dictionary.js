@@ -70,7 +70,7 @@ export const dictionary = {
     },
     body: {
       degreeStudies: 'Degree studies',
-      experience: 'Expirience',
+      experience: 'Experience',
       courses: 'Courses and specializations',
       skillsSummary: 'Skills summary'
     },

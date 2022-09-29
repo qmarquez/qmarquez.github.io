@@ -18,7 +18,7 @@ export default ({ locale, experiences }) => {
               <span className="section-time">{timelapse}</span> {title}
               <br />
               {
-                link && <a href={link.href} className="section-expirience-reference print-hide" >{link.text}<Icon className="section-expirience-reference-image" icon='external-link-alt' /></a>
+                link && <a href={link.href} className="section-experience-reference print-hide" >{link.text}<Icon className="section-experience-reference-image" icon='external-link-alt' /></a>
               }
               <div className="section-experience-skills">
                 {
