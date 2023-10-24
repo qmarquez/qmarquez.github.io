@@ -10,7 +10,8 @@ import {
   faTools,
   faBusinessTime,
   faCode,
-  faCogs
+  faCogs,
+  faBolt,
 } from '@fortawesome/free-solid-svg-icons'
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 
@@ -29,4 +30,5 @@ library.add(
   faBusinessTime,
   faCode,
   faCogs,
+  faBolt
 );

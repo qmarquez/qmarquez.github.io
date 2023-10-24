@@ -19,8 +19,6 @@ export const dictionary = {
       languages: {
         title: 'Idiomas',
         native: 'Nativo',
-        readAndWrite: 'Lectura y escritura',
-        speak: 'Conversación',
       },
       careerGoals: 'Objetivos profesionales',
       whoIAm: {

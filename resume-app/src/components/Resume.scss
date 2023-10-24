@@ -39,25 +39,6 @@ a {
     img.country {
       margin-bottom: 3px;
     }
-
-    .language-puntuation-container {
-      display: flex;
-      
-      & div:first-child{
-        margin-right: 20px;
-      }
-
-      .stars-rate-container {
-        margin: 3px 0 9px;
-        
-        .icon {
-          height: 19px;
-          width: 19px;
-          color: #5e63ff;
-          font-size: 25px;
-        }
-      }
-    }
   }
 }
 
@@ -145,11 +126,6 @@ hr {
   vertical-align: top;
 }
 
-.section-work-activity {
-  height      : 17px;
-  margin-right: 5px;
-}
-
 .section-list-item {
   margin-bottom: 5px;
 }
@@ -203,6 +179,12 @@ hr {
   display       : inline-block;
   vertical-align: top;
   box-shadow    : 2px 2px 4px 1px #ababab;
+
+  & .section-work-activity {
+    height      : 17px;
+    margin-right: 5px;
+    min-width   : 20px;
+  }
 }
 
 .tech-skill-title {

@@ -74,35 +74,10 @@ export default class extends React.Component {
         <br />
         <div className="language">
           <img className="country" src={argentina} alt="Argentina" />
-          <br />
-          <Translate value={translation.leftBar.LANGUAGES_NATIVE} />
+          &nbsp;<Translate value={translation.leftBar.LANGUAGES_NATIVE} />
         </div>
-        <hr />
         <div className="language">
-          <img className="country" src={usa} alt="USA" />
-          <br />
-          <div className="language-puntuation-container">
-            <div>
-              <Translate value={translation.leftBar.LANGUAGES_READ_WRITE} />
-              <div className="stars-rate-container">
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" prefix="far" icon="star" />
-              </div>
-            </div>
-            <div>
-              <Translate value={translation.leftBar.LANGUAGES_SPEAK} />
-              <div className="stars-rate-container">
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" icon="star" />
-                <Icon className="icon" prefix="far" icon="star" />
-                <Icon className="icon" prefix="far" icon="star" />
-              </div>
-            </div>
-          </div>
+          <img className="country" src={usa} alt="USA" />&nbsp;B1.3
         </div>
       </div>);
   }

@@ -3,7 +3,7 @@ import argentinaFlag from './assets/argentina.svg';
 import usaFlag from './assets/usa.svg';
 import { translation } from './i18n/i18n_translations.enum';
 
-const lastUpdate = '10/2022';
+const lastUpdate = '10/2023';
 
 const availablesLanguages = [
   {
@@ -27,12 +27,12 @@ const contactChannels = {
     },
     {
       title: translation.leftBar.CONTACT_EMAIL,
-      data: <React.Fragment>qmarquez@<wbr />est.<wbr />frba.<wbr />utn.<wbr />edu.<wbr />ar</React.Fragment>
+      data: <React.Fragment>quimey.<wbr />marquez@<wbr />gmail.<wbr />com</React.Fragment>,
     }
   ],
   notPrintable: [
     { href: 'https://www.linkedin.com/in/quimarquez/', prefix: 'fab', image: 'linkedin' },
-    { href: 'mailto:qmarquez@est.frba.utn.edu.ar', image: 'envelope-square' },
+    { href: 'mailto:quimey.marquez@gmail.com', image: 'envelope-square' },
     { href: 'https://github.com/qmarquez', prefix: 'fab', image: 'github' },
     { href: 'https://t.me/qmarquez', prefix: 'fab', image: 'telegram' }
   ]
@@ -89,11 +89,11 @@ const basicData = [
 const descriptions = [
   {
     es: 'Mi principal interés es integrar equipos de trabajo proactivos, con buena energía y disposición al ganar-ganar que me permita expandir y poner al servicio mis habilidades creativas y de desarrollo. Donde escuchar, ser escuchado y tenido en cuenta sean valores por defecto. Con una compensación justa y el suficiente manejo de mis tiempos para continuar mis proyectos independientes.',
-    en: 'My main goal on a work it\'s integrate proactive teams, with good vibes and win-win way of think that allows me to expand an put my creative and development skills to service. Where listen be heard and taken into account are default values. With fair compensation and sufficient management of my time to continue my independent projects. With fair compensation and enough time management to continue my independent projects.'
+    en: 'My main interest is to integrate proactive teams, with good energy and a win-win state of mind that allows me to expand and share my creativity and development skills. I am looking for a workplace where to be listened, to be heard and to be taken into account are default values. Looking for a fair compensation and sufficient management of my time to continue my independent projects.'
   },
   {
     es: 'Me desempeño como desarrollador desde el año 2013, en mis comiezos realicé taréas con tecnologías Microsoft (Desktop C#, SQL Server). Hoy en día mi interés y foco está puesto en especializarme con tecnologías web, JavaScript en todos sus sabores principamente. Mas allá de eso estoy abierto y dispuesto al aprendizaje de otras tecnologías (Python, Go, Deno) y paradigmas (funcional, lógico, objetos).',
-    en: 'From 2013 i\'m work as developer, at start i mainly used Microsoft techs like Desktop C# and SQL Server. Now a day i\'m focusing over web technologies like JavaScript, on all it\'s flavours (frontend, backend, over frameworks, vanilla JS). Beyond that i\'m keep open my mind to learn other technologies (like Python, Go, Deno) and paradigms (functional, logic, object).'
+    en: 'From 2013 I have worked as a developer. My beginning with developing started mainly using Microsoft techs like Desktop C# and SQL Server. Nowadays, i\'m focusing over web technologies like JavaScript and all it\'s branches (frontend, backend, over frameworks, vanilla JS). Additionally, I keep my mind open to learn other new technologies, such as Python, Go, Deno, and paradigms like functional, logic, object.'
   }
 ];
 
@@ -105,6 +105,37 @@ const degreeStudies = [
 ];
 
 const experiences = [
+  {
+    es:{
+      timelapse: '11/2022-10/2023',
+      title: 'Ingeniero de software II. Clear.',
+      link: {
+        href: 'https://www.clearme.com/',
+        text: 'Clear'
+      },
+      skills: [
+        'Desarrollo BackEnd NodeJS',
+        'Liderazgo sobre nuevos projectos y requerimientos',
+        'Transferencia de conocimiento - Testing, TDD, React',
+        'Comunicación hablada y escrita fluida en ingles (C2)',
+        'Implementación de APIs externas (Airsphere)',
+      ]
+    },
+    en: {
+      timelapse: '11/2022-10/2023',
+      title: 'Software Engineering II. Clear',
+      link: {
+        href: 'https://www.clearme.com/',
+        text: 'Clear'
+      },
+      skills: [
+        'BackEnd (NodeJS) development',
+        'Leadership on new projects and requirements',
+        'Knowledge transfer - Testing, TDD, React',
+        'Fluent spoken and written communication in English (C2)',
+        'Implementation of external APIs (Airsphere)',
+      ]}
+  },
   {
     es: {
       timelapse: '10/2020-10/2022',
@@ -146,7 +177,7 @@ const experiences = [
       timelapse: '04/2019-10/2020',
       title: 'Desarrollador MERN Full stack. Opinaia Social Research.',
       link: {
-        href: 'https://www.vates.com/',
+        href: 'https://www.opinaia.com/',
         text: 'Opinaia'
       },
       skills: [
@@ -274,19 +305,23 @@ const skills = [
     es: {
       title: 'Git',
       details: [
+        { icon: 'bolt', text: 'Conventional commits.' },
+        { icon: 'bolt', text: 'Git hooks para testing & lintern.' },
+        { icon: 'cogs', text: 'Git kraken.' },
+        { icon: 'cogs', text: 'Github, gitlab.' },
         { icon: 'code', text: 'Revisión de merge requests.' },
         { icon: 'code', text: 'Reflog, stash, cherry-pick, squash.' },
-        { icon: 'cogs', text: 'Github, gitlab.' },
-        { icon: 'cogs', text: 'Git kraken.' }
       ]
     },
     en: {
       title: 'Git',
       details: [
+        { icon: 'bolt', text: 'Conventional commits.' },
+        { icon: 'bolt', text: 'Git hooks for testing & lintern.' },
+        { icon: 'cogs', text: 'Git kraken.' },
+        { icon: 'cogs', text: 'Github, gitlab.' },
         { icon: 'code', text: 'Merge requests review.' },
         { icon: 'code', text: 'Reflog, stash, cherry-pick, squash.' },
-        { icon: 'cogs', text: 'Github, gitlab.' },
-        { icon: 'cogs', text: 'Git kraken.' }
       ]
     }
   },
@@ -294,7 +329,6 @@ const skills = [
   {
     es: {
       title: 'MongoDB',
-      time: '2 years.',
       details: [
         { icon: 'cogs', text: 'Agreggation Framework, indexes.' },
         { icon: 'cogs', text: 'mongo shell.' }
@@ -302,7 +336,6 @@ const skills = [
     },
     en: {
       title: 'MongoDB',
-      time: '2 years.',
       details: [
         { icon: 'cogs', text: 'Agreggation Framework, indexes.' },
         { icon: 'cogs', text: 'mongo shell.' }
@@ -312,24 +345,22 @@ const skills = [
   // ANGULAR
   {
     es: {
-      title: 'Angular 4+',
-      time: '2 años.',
+      title: 'Angular',
       details: [
+        { icon: 'bolt', text: 'Test sobre componentes y servicios, TestBed' },
         { icon: 'code', text: 'SPA, service worker, PWA.' },
         { icon: 'code', text: 'HttpClient, Lifecicle hooks, Interceptors.' },
-        { icon: 'cogs', text: 'Angular CLI, Angular material UI, TypeScript.' },
-        { icon: 'cogs', text: 'Actualizar a nuevos realeses del framework (ej. 4-&gt;6).' }
+        { icon: 'cogs', text: 'Angular CLI, Angular material UI.' },
       ]
     },
 
     en: {
-      title: 'Angular 4+',
-      time: '2 years.',
+      title: 'Angular',
       details: [
+        { icon: 'bolt', text: 'Component & service testing, TestBed' },
         { icon: 'code', text: 'SPA, service worker, PWA.' },
         { icon: 'code', text: 'HttpClient, Lifecicle hooks, Interceptors.' },
-        { icon: 'cogs', text: 'Angular CLI, Angular material UI, TypeScript.' },
-        { icon: 'cogs', text: 'Framework new realeses upgrade (ex. 4-&gt;6)' }
+        { icon: 'cogs', text: 'Angular CLI, Angular material UI.' },
       ]
     }
   },
@@ -337,7 +368,6 @@ const skills = [
   {
     es: {
       title: 'Docker & Docker compose',
-      time: '9 meses.',
       details: [
         { icon: 'code', text: 'Dockerfile, docker-compose.yml.' },
         { icon: 'cogs', text: 'Docker HUB.' },
@@ -347,7 +377,6 @@ const skills = [
     },
     en: {
       title: 'Docker & Docker compose',
-      time: '9 months.',
       details: [
         { icon: 'code', text: 'Dockerfile, docker-compose.yml.' },
         { icon: 'cogs', text: 'Docker HUB.' },
@@ -360,60 +389,62 @@ const skills = [
   {
     es: {
       title: 'Node Js',
-      time: '4 años.',
       details: [
         { icon: 'cogs', text: 'Aplicaciones de backend.' },
-        { icon: 'cogs', text: 'Typescript & Javascript.' },
-        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif, moment, firebase.' },
+        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif, moment.' },
+        { icon: 'code', text: 'inversify, event loop' },
       ]
     },
     en: {
       title: 'Node Js',
-      time: '4 years.',
       details: [
         { icon: 'cogs', text: 'Backend apps.' },
-        { icon: 'cogs', text: 'Typescript & Javascript.' },
-        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif, moment, firebase.' },
+        { icon: 'code', text: 'expressjs, mongoosejs, sequelize, oclif, moment.' },
+        { icon: 'code', text: 'inversify, event loop' },
       ]
     }
   },
   // SQL
-  {
-    es: {
-      title: 'SQL',
-      details: [
-        { icon: 'code', text: 'MySQL, T-SQL.' },
-        { icon: 'cogs', text: 'Stored procedures, Joins.' },
-        { icon: 'cogs', text: 'Consultas básicas.' }
-      ]
-    },
-    en: {
-      title: 'SQL',
-      details: [
-        { icon: 'code', text: 'MySQL, T-SQL.' },
-        { icon: 'cogs', text: 'Stored procedures, Joins.' },
-        { icon: 'cogs', text: 'Basics CRUDs.' }
-      ]
-    }
-  },
+  // {
+  //   es: {
+  //     title: 'SQL',
+  //     details: [
+  //       { icon: 'code', text: 'MySQL, T-SQL.' },
+  //       { icon: 'cogs', text: 'Stored procedures, Joins.' },
+  //       { icon: 'cogs', text: 'Consultas básicas.' }
+  //     ]
+  //   },
+  //   en: {
+  //     title: 'SQL',
+  //     details: [
+  //       { icon: 'code', text: 'MySQL, T-SQL.' },
+  //       { icon: 'cogs', text: 'Stored procedures, Joins.' },
+  //       { icon: 'cogs', text: 'Basics CRUDs.' }
+  //     ]
+  //   }
+  // },
   // React
   {
     es: {
       title: 'React',
-      time: '9 meses.',
       details: [
+        { icon: 'bolt', text: 'NextJs' },
+        { icon: 'bolt', text: 'Hooks: useState, useEffect, useMemo, useForm, entre otros.' }, 
+        { icon: 'code', text: 'Context, creación y consumo' },
         { icon: 'code', text: 'Redux, thunk, global stage.' },
-        { icon: 'code', text: 'Decoradores.' },
-        { icon: 'cogs', text: 'Web apps, api consume.' }
+        { icon: 'code', text: 'Componentes funcionales' }, 
+        { icon: 'cogs', text: 'Web apps, consumo de APIs consume.' }
       ]
     },
     en: {
       title: 'React',
-      time: '9 months.',
       details: [
+        { icon: 'bolt', text: 'NextJs' },
+        { icon: 'bolt', text: 'Hooks: useState, useEffect, useMemo, useForm, others.' }, 
+        { icon: 'code', text: 'Context, use & creation' },
         { icon: 'code', text: 'Redux, thunk, global stage.' },
-        { icon: 'code', text: 'Decorators.' },
-        { icon: 'cogs', text: 'Web apps, api consume.' }
+        { icon: 'code', text: 'Functional components' }, 
+        { icon: 'cogs', text: 'Web apps, APIs consume.' }
       ]
     }
   },
@@ -422,9 +453,9 @@ const skills = [
     es: {
       title: 'Herramientas generales',
       details: [
-        { icon: 'cogs', text: 'Ubuntu, KDE Neon, Windows.' },
+        { icon: 'cogs', text: 'VSCode.' },
+        { icon: 'cogs', text: 'MacOS, Ubuntu, KDE Neon, Windows.' },
         { icon: 'cogs', text: 'Bash, terminal, manejo de consola.' },
-        { icon: 'cogs', text: 'VSCode, nano.' },
         { icon: 'cogs', text: 'Ofimáticas (MS office, libre office, GDocs).' },
         { icon: 'cogs', text: 'Photoshop, GIMP.' },
         { icon: 'cogs', text: 'Illustrator, Inkscape.' },
@@ -435,9 +466,9 @@ const skills = [
     en: {
       title: 'General tools',
       details: [
-        { icon: 'cogs', text: 'Ubuntu, KDE Neon, Windows.' },
+        { icon: 'cogs', text: 'VSCode.' },
+        { icon: 'cogs', text: 'MacOS, Ubuntu, KDE Neon, Windows.' },
         { icon: 'cogs', text: 'Bash, terminal, console handeling.' },
-        { icon: 'cogs', text: 'VSCode, nano.' },
         { icon: 'cogs', text: 'Ofimatics (MS office, open office, GDocs).' },
         { icon: 'cogs', text: 'Photoshop, GIMP.' },
         { icon: 'cogs', text: 'Illustrator, Inkscape.' },
