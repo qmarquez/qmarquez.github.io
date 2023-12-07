@@ -1,80 +1,82 @@
 export const dictionary = {
   es: {
     header: {
-      subtitle: 'Curriculum vitae'
+      subtitle: "Curriculum vitae",
     },
     leftBar: {
       contact: {
         title: "Contacto",
         channel: {
-          cellphone: 'Celular',
-          email: 'e-mail'
-        }
+          cellphone: "Celular",
+          email: "e-mail",
+        },
       },
       nationality: {
-        title: 'Nacionalidad',
-        argAlt: 'Argentina',
-        spaAlt: 'Española'
+        title: "Nacionalidad",
+        argAlt: "Argentina",
+        spaAlt: "Española",
       },
       languages: {
-        title: 'Idiomas',
-        native: 'Nativo',
+        title: "Idiomas",
+        native: "Nativo",
       },
-      careerGoals: 'Objetivos profesionales',
+      careerGoals: "Objetivo profesional",
       whoIAm: {
-        title: '¿Quien soy?',
-        subTitle: 'Soy un hombre:'
-      }
+        title: "Mis valores",
+      },
     },
     body: {
-      degreeStudies: 'Estudios de grado',
-      experience: 'Experiencia',
-      courses: 'Cursos y especializaciones',
-      skillsSummary: 'Resumen de habilidades'
+      degreeStudies: "Estudios de grado",
+      experience: "Experiencia",
+      courses: "Cursos y especializaciones",
+      skillsSummary: "Resumen de habilidades",
+      techStack: "Stack tecnológico",
+      keyPoints: "Puntos clave",
     },
     footer: {
-      lastUpdate: 'Actualizado por última vez %{date}',
-      onlineVersionLabel: 'Versión online: qmarquez.github.io'
-    }
+      lastUpdate: "Actualizado por última vez %{date}",
+      onlineVersionLabel: "Versión online: qmarquez.github.io",
+    },
   },
   en: {
     header: {
-      subtitle: 'Resume'
+      subtitle: "Resume",
     },
     leftBar: {
       contact: {
         title: "Contact",
         channel: {
-          cellphone: 'Cellphone',
-          email: 'e-mail',
-        }
+          cellphone: "Cellphone",
+          email: "e-mail",
+        },
       },
       nationality: {
-        title: 'Nationality',
-        argAlt: 'Argentina',
-        spaAlt: 'Spanish'
+        title: "Nationality",
+        argAlt: "Argentina",
+        spaAlt: "Spanish",
       },
       languages: {
-        title: 'Languages',
-        native: 'Native',
-        readAndWrite: 'Read and write',
-        speak: 'Speak',
+        title: "Languages",
+        native: "Native",
+        readAndWrite: "Read and write",
+        speak: "Speak",
       },
-      careerGoals: 'Career goals',
+      careerGoals: "Career goal",
       whoIAm: {
-        title: 'Who I am?',
-        subTitle: 'I\'m a man:'
-      }
+        title: "My principles",
+      },
     },
     body: {
-      degreeStudies: 'Degree studies',
-      experience: 'Experience',
-      courses: 'Courses and specializations',
-      skillsSummary: 'Skills summary'
+      degreeStudies: "Degree studies",
+      experience: "Experience",
+      courses: "Courses and specializations",
+      skillsSummary: "Skills summary",
+      techStack: "Stack tecnológico",
+      keyPoints: "Key points",
     },
     footer: {
-      lastUpdate: 'Last update %{date}',
-      onlineVersionLabel: 'Online version: qmarquez.github.io'
-    }
-  }
+      lastUpdate: "Last update %{date}",
+      onlineVersionLabel: "Online version: qmarquez.github.io",
+    },
+  },
 };

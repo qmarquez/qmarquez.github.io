@@ -77,7 +77,7 @@ export default class extends React.Component {
           &nbsp;<Translate value={translation.leftBar.LANGUAGES_NATIVE} />
         </div>
         <div className="language">
-          <img className="country" src={usa} alt="USA" />&nbsp;B1.3
+          <img className="country" src={usa} alt="USA" />&nbsp;B2
         </div>
       </div>);
   }
@@ -113,7 +113,6 @@ export default class extends React.Component {
           <Translate value={translation.leftBar.WHOIAM} />
         </b>
         <br />
-        <Translate value={translation.leftBar.WHOIAM_SUBTITLE} />
         {renderedWhoIAmItems}
       </div>
     );

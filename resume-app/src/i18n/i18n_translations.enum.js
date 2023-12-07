@@ -13,13 +13,14 @@ export const translation = {
     LANGUAGES_SPEAK: 'leftBar.languages.speak',
     CAREER_GOALS: 'leftBar.careerGoals',
     WHOIAM: 'leftBar.whoIAm.title',
-    WHOIAM_SUBTITLE: 'leftBar.whoIAm.subTitle',
   },
   body: {
     DEGREESTUDIES: 'body.degreeStudies',
     EXPERIENCE: 'body.experience',
     COURSES: 'body.courses',
-    SKILLSSUMMARY: 'body.skillsSummary'
+    SKILLSSUMMARY: 'body.skillsSummary',
+    TECHSTACK: 'body.techStack',
+    KEYPOINTS: 'body.keyPoints'
   },
   footer: {
     LASTUPDATE: 'footer.lastUpdate',

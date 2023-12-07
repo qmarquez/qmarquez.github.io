@@ -1,5 +1,9 @@
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLinkedin, faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faLinkedin,
+  faGithub,
+  faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faChevronLeft,
   faEnvelopeSquare,
@@ -12,8 +16,10 @@ import {
   faCode,
   faCogs,
   faBolt,
-} from '@fortawesome/free-solid-svg-icons'
-import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
+  faWrench,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
+import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
 
 library.add(
   faHeartbeat,
@@ -30,5 +36,7 @@ library.add(
   faBusinessTime,
   faCode,
   faCogs,
-  faBolt
+  faBolt,
+  faWrench,
+  faStar
 );
