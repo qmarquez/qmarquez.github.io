@@ -71,7 +71,7 @@ export const dictionary = {
       experience: "Experience",
       courses: "Courses and specializations",
       skillsSummary: "Skills summary",
-      techStack: "Stack tecnológico",
+      techStack: "Tech stack",
       keyPoints: "Key points",
     },
     footer: {

@@ -130,6 +130,7 @@ checkBrowsers(paths.appPath, isInteractive)
 // Create the production build and print the deployment instructions.
 function build(previousFileSizes) {
   // Add this to control las update date
+  
   console.log(chalk.yellow("Checking last update date..."));
   const dataFilePath = process.cwd() + "/src/data.js";
   if (!fs.pathExistsSync(dataFilePath)) {
