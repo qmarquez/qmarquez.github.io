@@ -150,7 +150,7 @@ export default class extends React.Component {
 
   render() {
     return (
-      <div className="col-xs-12 col-sm-5 col-md-4 personal-data">
+      <div className="col-xs-12 col-sm-4 personal-data">
         {this.renderProfileImage()}
         {this.renderContact()}
         {this.renderNationalities()}

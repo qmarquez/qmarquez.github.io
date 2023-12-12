@@ -17,17 +17,17 @@ export default class extends React.Component {
       )
     );
     return (
-      <div className="col-xs-12 col-sm-7 col-md-8 main-body" >
+      <div className="col-xs-12 col-sm-8 main-body" >
         <p><b>{main[locale]}</b></p>
         {renderedDescriptions}
 
         <div className="section">
           <DegreeStudies locale={locale} degreeStudies={body.degreeStudies} />
-          <div className="row section pagebreak">
-            <div className="col-md-12 col-lg-6">
+          <div className="row section">
+            <div className="col-sm-12 col-md-6">
               <Experiences locale={locale} experiences={body.experiences} />
             </div>
-            <div className="col-md-12 col-lg-6">
+            <div className="col-sm-12 col-md-6">
               <Courses locale={locale} courses={body.courses} />
             </div>
           </div>
